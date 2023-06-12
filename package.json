@@ -1,0 +1,31 @@
+{
+  "name": "essentials",
+  "version": "1.0.0",
+  "description": "Template repository for node environments",
+  "main": "index.js",
+  "scripts": {
+    "essential": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/suptower/node-essentials"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "essentials",
+    "javascript"
+  ],
+  "author": "suptower",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "eslint": "^8.42.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "readline-sync": "^1.4.10",
+    "standard-version": "^9.5.0"
+  }
+}
