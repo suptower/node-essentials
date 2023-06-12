@@ -1,10 +1,11 @@
 {
   "name": "essentials",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Template repository for node environments",
   "main": "index.js",
   "scripts": {
-    "essential": "node index.js"
+    "essential": "node index.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
+    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10",
     "standard-version": "^9.5.0"
   }
